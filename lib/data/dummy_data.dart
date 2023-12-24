@@ -429,7 +429,10 @@ const dummyMeals = [
   ),
   Meal(
     id: 'm11',
-    categories: ['c11'],
+    categories: [
+      'c11',
+      'c8',
+    ],
     title: 'Spicy Chicken Biryani',
     affordability: Affordability.luxurious,
     complexity: Complexity.challenging,
@@ -472,7 +475,10 @@ const dummyMeals = [
   ),
   Meal(
     id: 'm12',
-    categories: ['c11'],
+    categories: [
+      'c11',
+      'c8',
+    ],
     title: 'Homemade Chicken Tandoori',
     affordability: Affordability.affordable,
     complexity: Complexity.hard,
