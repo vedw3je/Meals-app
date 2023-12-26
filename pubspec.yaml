@@ -40,6 +40,9 @@ dependencies:
   transparent_image: ^2.0.1
   flutter_riverpod: ^2.4.6
   line_icons: ^2.0.3
+  firebase_auth: ^4.15.3
+  firebase_core: ^2.24.2
+  fluttertoast: ^8.2.4
 
 dev_dependencies:
   flutter_test:

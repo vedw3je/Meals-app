@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "554605839815",
+    "project_id": "meals-df812",
+    "storage_bucket": "meals-df812.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554605839815:android:d0df4df32a50c3b7b145e2",
+        "android_client_info": {
+          "package_name": "com.example.meals"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW0lRvmOi5V3a9SgsGfWhHFVNYIEnpyG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,8 +1,10 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'package:meals/screens/categories.dart';
 import 'package:meals/screens/filters.dart';
+import 'package:meals/screens/login_with_phone.dart';
 import 'package:meals/screens/meals.dart';
 import 'package:meals/widgets/main_drawer.dart';
 import 'package:meals/providers/favorites_provider.dart';
@@ -64,6 +66,16 @@ class _TabsScreenState extends ConsumerState<TabsScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(activePageTitle),
+        actions: [
+          IconButton(
+            onPressed: () {
+              FirebaseAuth.instance.signOut();
+              Navigator.of(context).pop();
+              Navigator.of(context).pop();
+            },
+            icon: Icon(Icons.exit_to_app_rounded),
+          )
+        ],
       ),
       drawer: MainDrawer(
         onSelectScreen: _setScreen,
