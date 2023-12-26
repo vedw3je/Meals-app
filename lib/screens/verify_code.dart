@@ -40,9 +40,11 @@ class _VerifyCodeScreenState extends State<VerifyCodeScreen> {
               height: 80,
             ),
             TextFormField(
+              cursorColor: Colors.white,
               controller: verificationCodeController,
               keyboardType: TextInputType.number,
               decoration: InputDecoration(hintText: '6 digit code'),
+              style: TextStyle(color: Colors.white),
             ),
             SizedBox(
               height: 80,
